@@ -1,4 +1,6 @@
 
 scan '<TABLE>', {LIMIT=>2}  
 
-scan '<TABLE>', {FILTER=>"RowFilter(=,'binary:<VALUE>')"}
+scan '<TABLE>', {FILTER=>"RowFilter(=,'binary:<VALUE>')"}   
+
+scan '<TABLE>', {FILTER=>"RowFilter(=,'binaryprefix:<VALUE>')"}  
