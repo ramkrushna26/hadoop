@@ -1,0 +1,4 @@
+
+scan '<TABLE>', {LIMIT=>2}  
+
+scan '<TABLE>', {FILTER=>"RowFilter(=,'binary:<VALUE>')"}
